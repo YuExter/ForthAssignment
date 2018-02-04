@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EFC7BF7C23374E63727925A /* Pods_FourthAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA126CAA2E946817C7614B /* Pods_FourthAssignment.framework */; };
+		53111D2920272F3300B5199C /* SmashMentionImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53111D2820272F3300B5199C /* SmashMentionImageTableViewCell.swift */; };
+		53111D2B2027305100B5199C /* SmashMentionKeyWordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53111D2A2027305100B5199C /* SmashMentionKeyWordsTableViewCell.swift */; };
+		53111D2D2027584700B5199C /* MentionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53111D2C2027584700B5199C /* MentionsTableViewController.swift */; };
+		5347371B202770FF0038820A /* MentionImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347371A202770FF0038820A /* MentionImageViewController.swift */; };
+		5347371D202783560038820A /* MentionTweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347371C202783560038820A /* MentionTweetTableViewController.swift */; };
 		537C581A201E389400435DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5819201E389400435DEB /* AppDelegate.swift */; };
-		537C581C201E389400435DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C581B201E389400435DEB /* ViewController.swift */; };
+		537C581C201E389400435DEB /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C581B201E389400435DEB /* TweetTableViewController.swift */; };
 		537C581F201E389400435DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C581D201E389400435DEB /* Main.storyboard */; };
-		537C5822201E389400435DEB /* FourthAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 537C5820201E389400435DEB /* FourthAssignment.xcdatamodeld */; };
+		537C5822201E389400435DEB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 537C5820201E389400435DEB /* Model.xcdatamodeld */; };
 		537C5824201E389400435DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537C5823201E389400435DEB /* Assets.xcassets */; };
 		537C5827201E389400435DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C5825201E389400435DEB /* LaunchScreen.storyboard */; };
+		537C5831201E439A00435DEB /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5830201E439A00435DEB /* MediaItem.swift */; };
+		537C5833201E43E500435DEB /* NSDictionary+KeyPathConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5832201E43E500435DEB /* NSDictionary+KeyPathConvenience.swift */; };
+		537C5835201E440000435DEB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5834201E440000435DEB /* Request.swift */; };
+		537C5837201E441700435DEB /* TweetStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5836201E441700435DEB /* TweetStruct.swift */; };
+		537C5839201E444000435DEB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5838201E444000435DEB /* User.swift */; };
+		537C583B201E470200435DEB /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C583A201E470200435DEB /* TweetTableViewCell.swift */; };
+		537C583E201E498500435DEB /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C583D201E498500435DEB /* Tweet.swift */; };
+		537C5840201E49A400435DEB /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C583F201E49A400435DEB /* TwitterUser.swift */; };
+		537C5842201E49C000435DEB /* FetchedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5841201E49C000435DEB /* FetchedResult.swift */; };
+		537C5844201E4A0A00435DEB /* UITableViewDataSource+NSFetchedResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5843201E4A0A00435DEB /* UITableViewDataSource+NSFetchedResultController.swift */; };
+		537C584A201E711100435DEB /* SmashTweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C5849201E711100435DEB /* SmashTweetTableViewController.swift */; };
+		537C584C201E724E00435DEB /* SmashTweetersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C584B201E724E00435DEB /* SmashTweetersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17FA126CAA2E946817C7614B /* Pods_FourthAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourthAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53111D2820272F3300B5199C /* SmashMentionImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMentionImageTableViewCell.swift; sourceTree = "<group>"; };
+		53111D2A2027305100B5199C /* SmashMentionKeyWordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMentionKeyWordsTableViewCell.swift; sourceTree = "<group>"; };
+		53111D2C2027584700B5199C /* MentionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionsTableViewController.swift; sourceTree = "<group>"; };
+		5347371A202770FF0038820A /* MentionImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionImageViewController.swift; sourceTree = "<group>"; };
+		5347371C202783560038820A /* MentionTweetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionTweetTableViewController.swift; sourceTree = "<group>"; };
 		537C5816201E389400435DEB /* FourthAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourthAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537C5819201E389400435DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		537C581B201E389400435DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		537C581B201E389400435DEB /* TweetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
 		537C581E201E389400435DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		537C5821201E389400435DEB /* FourthAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FourthAssignment.xcdatamodel; sourceTree = "<group>"; };
 		537C5823201E389400435DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537C5826201E389400435DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537C5828201E389400435DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537C5830201E439A00435DEB /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		537C5832201E43E500435DEB /* NSDictionary+KeyPathConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+KeyPathConvenience.swift"; sourceTree = "<group>"; };
+		537C5834201E440000435DEB /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		537C5836201E441700435DEB /* TweetStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStruct.swift; sourceTree = "<group>"; };
+		537C5838201E444000435DEB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		537C583A201E470200435DEB /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		537C583D201E498500435DEB /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		537C583F201E49A400435DEB /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
+		537C5841201E49C000435DEB /* FetchedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResult.swift; sourceTree = "<group>"; };
+		537C5843201E4A0A00435DEB /* UITableViewDataSource+NSFetchedResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewDataSource+NSFetchedResultController.swift"; sourceTree = "<group>"; };
+		537C5849201E711100435DEB /* SmashTweetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashTweetTableViewController.swift; sourceTree = "<group>"; };
+		537C584B201E724E00435DEB /* SmashTweetersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashTweetersTableViewController.swift; sourceTree = "<group>"; };
+		EF8B080E3310B6824FECA4D5 /* Pods-FourthAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourthAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourthAssignment/Pods-FourthAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		F854573EFD9D4C82A76D2006 /* Pods-FourthAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourthAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourthAssignment/Pods-FourthAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFC7BF7C23374E63727925A /* Pods_FourthAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0192CB68DF3D663A340678F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B080E3310B6824FECA4D5 /* Pods-FourthAssignment.debug.xcconfig */,
+				F854573EFD9D4C82A76D2006 /* Pods-FourthAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BEE400E99C652C70C3208A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FA126CAA2E946817C7614B /* Pods_FourthAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53473719202770DB0038820A /* Mention Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53111D2820272F3300B5199C /* SmashMentionImageTableViewCell.swift */,
+				53111D2A2027305100B5199C /* SmashMentionKeyWordsTableViewCell.swift */,
+				53111D2C2027584700B5199C /* MentionsTableViewController.swift */,
+				5347371A202770FF0038820A /* MentionImageViewController.swift */,
+				5347371C202783560038820A /* MentionTweetTableViewController.swift */,
+			);
+			path = "Mention Controllers";
+			sourceTree = "<group>";
+		};
 		537C580D201E389300435DEB = {
 			isa = PBXGroup;
 			children = (
 				537C5818201E389400435DEB /* FourthAssignment */,
 				537C5817201E389400435DEB /* Products */,
+				0192CB68DF3D663A340678F0 /* Pods */,
+				3BEE400E99C652C70C3208A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +126,52 @@
 		537C5818201E389400435DEB /* FourthAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				537C5819201E389400435DEB /* AppDelegate.swift */,
-				537C581B201E389400435DEB /* ViewController.swift */,
+				537C583C201E495500435DEB /* CoreData */,
+				537C582F201E435F00435DEB /* TwitterLib */,
+				537C581B201E389400435DEB /* TweetTableViewController.swift */,
+				537C583A201E470200435DEB /* TweetTableViewCell.swift */,
+				537C5849201E711100435DEB /* SmashTweetTableViewController.swift */,
+				537C584B201E724E00435DEB /* SmashTweetersTableViewController.swift */,
+				53473719202770DB0038820A /* Mention Controllers */,
 				537C581D201E389400435DEB /* Main.storyboard */,
-				537C5823201E389400435DEB /* Assets.xcassets */,
-				537C5825201E389400435DEB /* LaunchScreen.storyboard */,
 				537C5828201E389400435DEB /* Info.plist */,
-				537C5820201E389400435DEB /* FourthAssignment.xcdatamodeld */,
+				537C582E201E434F00435DEB /* SupportingFiles */,
 			);
 			path = FourthAssignment;
+			sourceTree = "<group>";
+		};
+		537C582E201E434F00435DEB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				537C5819201E389400435DEB /* AppDelegate.swift */,
+				537C5823201E389400435DEB /* Assets.xcassets */,
+				537C5825201E389400435DEB /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		537C582F201E435F00435DEB /* TwitterLib */ = {
+			isa = PBXGroup;
+			children = (
+				537C5830201E439A00435DEB /* MediaItem.swift */,
+				537C5832201E43E500435DEB /* NSDictionary+KeyPathConvenience.swift */,
+				537C5834201E440000435DEB /* Request.swift */,
+				537C5836201E441700435DEB /* TweetStruct.swift */,
+				537C5838201E444000435DEB /* User.swift */,
+			);
+			path = TwitterLib;
+			sourceTree = "<group>";
+		};
+		537C583C201E495500435DEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				537C5820201E389400435DEB /* Model.xcdatamodeld */,
+				537C583D201E498500435DEB /* Tweet.swift */,
+				537C583F201E49A400435DEB /* TwitterUser.swift */,
+				537C5841201E49C000435DEB /* FetchedResult.swift */,
+				537C5843201E4A0A00435DEB /* UITableViewDataSource+NSFetchedResultController.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 537C582B201E389400435DEB /* Build configuration list for PBXNativeTarget "FourthAssignment" */;
 			buildPhases = (
+				F00BA8E706A18557FF190486 /* [CP] Check Pods Manifest.lock */,
 				537C5812201E389300435DEB /* Sources */,
 				537C5813201E389300435DEB /* Frameworks */,
 				537C5814201E389300435DEB /* Resources */,
+				1910D36E7D107309129D5D91 /* [CP] Embed Pods Frameworks */,
+				1D32079215C11C4D84A9F708 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +244,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1910D36E7D107309129D5D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourthAssignment/Pods-FourthAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D32079215C11C4D84A9F708 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourthAssignment/Pods-FourthAssignment-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourthAssignment/Pods-FourthAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00BA8E706A18557FF190486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourthAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		537C5812201E389300435DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537C581C201E389400435DEB /* ViewController.swift in Sources */,
-				537C5822201E389400435DEB /* FourthAssignment.xcdatamodeld in Sources */,
+				537C581C201E389400435DEB /* TweetTableViewController.swift in Sources */,
+				537C583E201E498500435DEB /* Tweet.swift in Sources */,
+				537C5835201E440000435DEB /* Request.swift in Sources */,
+				537C583B201E470200435DEB /* TweetTableViewCell.swift in Sources */,
+				537C584C201E724E00435DEB /* SmashTweetersTableViewController.swift in Sources */,
+				53111D2920272F3300B5199C /* SmashMentionImageTableViewCell.swift in Sources */,
+				5347371D202783560038820A /* MentionTweetTableViewController.swift in Sources */,
+				537C5842201E49C000435DEB /* FetchedResult.swift in Sources */,
+				537C5831201E439A00435DEB /* MediaItem.swift in Sources */,
+				537C5837201E441700435DEB /* TweetStruct.swift in Sources */,
+				537C584A201E711100435DEB /* SmashTweetTableViewController.swift in Sources */,
+				537C5839201E444000435DEB /* User.swift in Sources */,
+				53111D2B2027305100B5199C /* SmashMentionKeyWordsTableViewCell.swift in Sources */,
+				5347371B202770FF0038820A /* MentionImageViewController.swift in Sources */,
+				537C5844201E4A0A00435DEB /* UITableViewDataSource+NSFetchedResultController.swift in Sources */,
+				537C5840201E49A400435DEB /* TwitterUser.swift in Sources */,
+				53111D2D2027584700B5199C /* MentionsTableViewController.swift in Sources */,
+				537C5822201E389400435DEB /* Model.xcdatamodeld in Sources */,
 				537C581A201E389400435DEB /* AppDelegate.swift in Sources */,
+				537C5833201E43E500435DEB /* NSDictionary+KeyPathConvenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +458,7 @@
 		};
 		537C582C201E389400435DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8B080E3310B6824FECA4D5 /* Pods-FourthAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +474,7 @@
 		};
 		537C582D201E389400435DEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F854573EFD9D4C82A76D2006 /* Pods-FourthAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,13 +512,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		537C5820201E389400435DEB /* FourthAssignment.xcdatamodeld */ = {
+		537C5820201E389400435DEB /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				537C5821201E389400435DEB /* FourthAssignment.xcdatamodel */,
 			);
 			currentVersion = 537C5821201E389400435DEB /* FourthAssignment.xcdatamodel */;
-			path = FourthAssignment.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
